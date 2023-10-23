@@ -1,0 +1,87 @@
+.our-services {
+    font-family: "DM Sans", sans-serif;
+    background-color: #F0EFE9;
+    position: relative;
+  }
+  .our-services .design-line {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .our-services .caption {
+    padding-top: 9.4rem;
+  }
+
+  .our-services .caption h4 {
+    color: #F94D1C;
+    font-size: 1.1rem;
+    padding-bottom: 0.6rem;
+  }
+  .our-services .caption h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-bottom: 1.9rem;
+  }
+  .our-services .all-boxes {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  .our-services .all-boxes .position {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #ffffff;
+    width: 21.25rem;
+    height: 22rem;
+    position: relative;
+  }
+  .our-services .all-boxes .position a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-decoration: none;
+  }
+  .our-services .all-boxes .position a .text-in-box {
+    color: #191919;
+  }
+  .our-services .all-boxes .position .line {
+    position: absolute;
+    top: 2.5rem;
+    left: 1.6rem;
+  }
+  .our-services .all-boxes .position h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    position: absolute;
+    top: 5.9rem;
+    left: 1.6rem;
+  }
+  .our-services .all-boxes .position p {
+    position: absolute;
+    left: 1.6rem;
+    top: 130px;
+  }
+  .our-services .all-boxes .position .arrow {
+    position: absolute;
+    bottom: 50px;
+    right: 1.6rem;
+  }
+  .our-services .all-boxes .position:hover {
+    background-color: #F9D783;
+  }
+  .our-services .all-boxes .position:hover .arrow-button-black {
+    background-color: #ffffff;
+    color: #191919;
+  }
+  .our-services .all-boxes .position:hover .arrow-button-black i {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .our-services .button {
+    display: flex;
+    justify-content: center;
+    padding-top: 4.1rem;
+    padding-bottom: 9.4rem;
+  }
+  
